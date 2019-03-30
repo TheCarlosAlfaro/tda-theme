@@ -19,4 +19,14 @@ $container = get_theme_mod('understrap_container_type');
 <!-- Hero Section/Jumbotron -->
 <?php get_template_part('global-templates/jumbotron'); ?>
 
+<!-- Welcome Section -->
+<?php get_template_part('global-templates/welcome'); ?>
+
+<!-- Our Pastors Section -->
+<?php get_template_part('global-templates/our-pastors'); ?>
+
+<!-- Our Vision Section -->
+<?php get_template_part('global-templates/our-vision'); ?>
+
+
 <?php get_footer(); ?> 

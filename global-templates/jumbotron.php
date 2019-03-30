@@ -12,18 +12,18 @@ if (!defined('ABSPATH')) {
 ?>
 
 <div class="jumbotron jumbotron-fluid text-light pb-0 hero--bg-image" style="background-image: 
-    linear-gradient(rgba(20,20,20, .6), rgba(20,20,20, .6)), url('<?php the_field('hero_bg_image'); ?>');">
+    linear-gradient(rgba(37, 51, 102, 0.6), rgba(37, 51, 102, 0.6)), url('<?php the_field('hero_bg_image'); ?>');">
     <div class="container">
         <div class="row">
 
             <div class="col-md-12 text-center">
                 <div class="hero-content">
-                    <h1 class="font-weight-bold pt-5"><?php the_field("heading") ?>JOIN US THIS WEEKEND</h1>
-                    <p class="lead pb-3"><?php the_field("subheading") ?>9AM, 10:15AM, 11:45AM & 6pm</p>
+                    <h1 class="font-weight-bold pt-5"><?php the_field("hero_heading") ?></h1>
+                    <p class="lead pb-3"><?php the_field("hero_subheading") ?></p>
 
                     <!-- Button trigger modal -->
                     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-                        <i class="fa fa-play" aria-hidden="true"></i> VIDEO DE BIENVENIDA
+                        <i class="fa fa-play" aria-hidden="true"></i> <?php the_field('hero_button_text') ?>
                     </button>
 
                 </div>
