@@ -13,13 +13,40 @@ body.admin-bar nav {
   color: $black;
 }
 
+.navbar-light .navbar-nav .nav-link:hover {
+  color: $secondary;
+}
+
+.navbar-light .navbar-nav .active > .nav-link {
+  color: $primary;
+}
+
 .custom-logo-link {
-  width: 72px;
+  width: 84px;
   padding: 0;
 }
 
 .jumbotron {
   background-color: #fff;
+}
+
+.hero-content {
+  margin-top: 4rem;
+}
+
+.hero--bg-image {
+  height: 72vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+@media (max-width: 530px) {
+  .hero--bg-image {
+    background-attachment: scroll;
+    background-position: center;
+  }
 }
 
 // type styles
@@ -99,7 +126,8 @@ body.admin-bar nav {
 // Social Icons
 .social {
   width: 100%;
-  margin-top: 1.5rem;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
 }
 
 .social a {
@@ -109,13 +137,13 @@ body.admin-bar nav {
 }
 
 .social a i {
-  color: $primary;
+  color: $white;
   font-size: 20px;
   -webkit-border-radius: 100%;
   -moz-border-radius: 100%;
   -o-border-radius: 100%;
   border-radius: 100%;
-  border: 2px solid $primary;
+  border: 2px solid $white;
   text-align: center;
   display: table-cell;
   vertical-align: middle;
