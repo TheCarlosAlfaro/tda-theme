@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Quote setup.
+ * Our Pastors setup.
  *
  * @package tda
  */
@@ -11,7 +11,7 @@ if (!defined('ABSPATH')) {
 }
 ?>
 
-<div id="home-quote">
+<div id="pastors-quote">
     <div class="hero--bg-image" style="background-image: 
     linear-gradient(rgba(37, 51, 102, 0.6), rgba(37, 51, 102, 0.6)), url('<?php the_field('our_pastors_bg_img'); ?>');">
         <div class="container text-center quote-h text-light">

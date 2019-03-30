@@ -28,5 +28,11 @@ $container = get_theme_mod('understrap_container_type');
 <!-- Our Vision Section -->
 <?php get_template_part('global-templates/our-vision'); ?>
 
+<!-- Kids Section -->
+<?php get_template_part('global-templates/kids'); ?>
+
+<!-- Contact Section -->
+<?php get_template_part('global-templates/signup'); ?>
+
 
 <?php get_footer(); ?> 

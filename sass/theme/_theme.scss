@@ -670,3 +670,8 @@ body.admin-bar .search-overlay {
     width: calc(33.3333% - 2rem);
   }
 }
+
+// Contact Form
+.wpcf7-textarea {
+  max-height: 8rem;
+}
