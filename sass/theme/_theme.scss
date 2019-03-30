@@ -675,3 +675,31 @@ body.admin-bar .search-overlay {
 .wpcf7-textarea {
   max-height: 8rem;
 }
+
+.social-footer a {
+  display: inline-block;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.social-footer a i {
+  color: $black;
+  font-size: 20px;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -o-border-radius: 100%;
+  border-radius: 100%;
+  border: 2px solid $black;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  width: 40px;
+  height: 40px;
+  margin: 0 10px;
+}
+
+.social-footer a i:hover {
+  color: $light;
+  border-color: $black;
+  background: $black;
+}

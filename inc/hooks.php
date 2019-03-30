@@ -34,7 +34,7 @@ if (!function_exists('understrap_add_site_info')) {
       esc_url(__('http://www.tda.org/', 'understrap')),
       sprintf(
         /* translators:*/
-        esc_html__('© Copyright 2019 TDA Tabernáculo De Adoración %s', 'understrap'),
+        esc_html__('© Copyright 2019 TDA Tabernáculo De Adoración All Rights Reserved %s', 'understrap'),
         ''
       ),
       sprintf( // WPCS: XSS ok.
