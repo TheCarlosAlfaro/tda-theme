@@ -8,6 +8,10 @@ body.admin-bar nav {
   margin-top: 32px;
 }
 
+.p--extra-height > p {
+  line-height: 2rem;
+}
+
 // NAVBAR
 .navbar-light .navbar-nav .nav-link {
   color: $black;
@@ -64,6 +68,10 @@ body.admin-bar nav {
   max-width: 64%;
 }
 
+.pastors-portrait {
+  max-width: 75%;
+}
+
 @media (max-width: 530px) {
   .hero--bg-image {
     background-attachment: scroll;
@@ -74,6 +82,9 @@ body.admin-bar nav {
     background-position: center;
   }
   .welcome__content {
+    max-width: 100%;
+  }
+  .pastors-portrait {
     max-width: 100%;
   }
 }
@@ -702,4 +713,11 @@ body.admin-bar .search-overlay {
   color: $light;
   border-color: $black;
   background: $black;
+}
+
+// Sunday Page
+.services--times {
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-align: center;
 }
