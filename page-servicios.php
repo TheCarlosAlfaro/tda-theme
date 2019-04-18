@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Template Name: Conocenos
+ * Template Name: Servicios
  *
  * Template for displaying a page without sidebar even if a sidebar widget is published.
  *
@@ -21,6 +21,9 @@ $container = get_theme_mod('understrap_container_type');
 
 <!-- Community Section -->
 <?php get_template_part('global-templates/community-bg'); ?>
+
+<!-- Thumb Links Section -->
+<?php get_template_part('global-templates/thumb-links'); ?>
 
 <!-- Contact Section -->
 <?php get_template_part('global-templates/signup'); ?>

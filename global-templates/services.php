@@ -21,7 +21,7 @@ if (!defined('ABSPATH')) {
       <div class="row">
         <div class="col-md-6">
           <div class="services--times p--extra-height">
-            <?php the_field('services_heading') ?>
+            <h1 class="font-weight-bold display-4"><?php the_field('services_heading') ?></h1>
             <?php the_field('services_times') ?>
           </div>
           <div class="p--extra-height text-center">
